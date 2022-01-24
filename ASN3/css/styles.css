@@ -1,0 +1,115 @@
+/* color pallete:
+https://coolors.co/517b54-e4e3d3-9b7874-666370-ffeef2
+517B54 - fern green
+E4E3D3 - eggshell
+9B7874 - burnished brown
+666370 - old lavender
+CBB9B9 - black shadows
+ */
+
+ /* Global Styles
+ -------------------------- */
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+img {
+    width: 300px;
+}
+
+section, footer {
+    padding: 3% 10%;
+}
+
+a {
+    color: lightgrey;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Profile
+ -------------------------- */
+.profile {
+    background-color: #666370;
+    color: lightgrey;
+    padding: 3%;
+}
+
+ .header, h2 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+ .portrait {
+     border-radius: 5px;
+     width: 200px;
+}
+
+ .about {
+    margin: 5% 20%;
+    text-align: center;
+}
+
+ /* Projects
+ -------------------------- */
+ .projects {
+    background-color: #e4e3d3;
+    padding-bottom: 10%;
+}
+
+.view-projects{
+text-align: center;
+}
+
+.homepage {
+    float: left;
+    margin: auto 5%;
+}
+
+.website {
+    text-align: center;
+    padding-left: 40%;
+    padding-top: 2%;
+}
+
+ /* Work Experience
+ -------------------------- */
+.work {
+    background-color: #517B54;
+}
+
+/* Education 
+-------------------------- */
+.education {
+    background-color: #9B7874;
+}
+
+.school {
+    padding: 1% 10%;
+}
+
+ /* Contact Info
+ -------------------------- */
+footer {
+    background-color: #CBB9B9;
+}
+
+li {
+    list-style-type: none;
+    margin: 3% auto 3% -3%;
+    text-align: center;
+}
