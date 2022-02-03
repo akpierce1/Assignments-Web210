@@ -11,6 +11,8 @@ CBB9B9 - black shadows
  -------------------------- */
 body {
     font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    line-height: 1.5;
 }
 
 img {
@@ -52,6 +54,7 @@ h2 {
 
 h1 {
     font-size: 50px;
+    line-height: 1;
 }
 
  .portrait {
@@ -72,7 +75,7 @@ h1 {
 }
 
 .view-projects{
-text-align: center;
+    text-align: center;
 }
 
 .homepage {
@@ -84,6 +87,8 @@ text-align: center;
     text-align: center;
     padding-left: 40%;
     padding-top: 2%;
+    overflow: hidden;
+    border-bottom: 1px dashed #CBB9B9;
 }
 
  /* Work Experience
@@ -105,7 +110,7 @@ text-align: center;
  /* Contact Info
  -------------------------- */
 footer {
-    background-color: #CBB9B9;
+    background-color: #666370;
 }
 
 li {

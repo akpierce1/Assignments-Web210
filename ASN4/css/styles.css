@@ -1,0 +1,147 @@
+/* color pallete:
+https://coolors.co/56765a-89a1a9-9ebf9b-cb8867-a76d60
+56765A - Amazon
+89A1A9 - Pewter Blue
+9EBF9B - Dark Sea Green
+BE9289 - Rosy Brown
+C1D6D7 - Opal
+ */
+
+ /* Global Styles
+ -------------------------- */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+ body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    line-height: 1.5;
+}
+
+img {
+    width: 300px;
+}
+
+.homepage:hover {
+    opacity: 0.5;
+    transition: .3s ease;
+}
+
+section, footer {
+    padding: 3% 10%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Profile
+ -------------------------- */
+.profile {
+    background-color: #56765A;
+    color: lightgrey;
+    padding: 5%;
+}
+
+ .header, h2 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+h1 {
+    font-size: 65px;
+    line-height: 1;
+    text-shadow: 5px 5px black;
+}
+
+.portrait {
+    float: right;
+    border-radius: 120%;
+    width: 160px;
+    margin-right: 20%;
+}
+
+ .about {
+    margin: 5% 20%;
+}
+
+ /* Projects
+ -------------------------- */
+ .projects {
+    background-color: #C1D6D7;
+    padding-bottom: 10%;
+}
+
+.view-projects{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+.homepage {
+    overflow: hidden;
+    float: left;
+    margin: auto 5%;
+}
+
+.website {
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px dashed black;
+    margin-top: 0px;
+}
+
+ /* Work Experience
+ -------------------------- */
+.work {
+    background-color: #9EBF9B;
+}
+
+/* Education 
+-------------------------- */
+.education {
+    background-color: #BE9289;
+}
+
+.school {
+    padding: 1% 10%;
+}
+
+ /* Contact Info
+ -------------------------- */
+footer {
+    background-color: #89A1A9;
+}
+
+li {
+    list-style-type: none;
+    margin: 5% -3%;
+    text-align: center;
+}
+
+li a {
+    color: black;
+    background-color: lightgrey;
+    padding: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 10px 5px;
+}
+
+a:hover {
+    opacity: 0.5;
+}
